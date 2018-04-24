@@ -1,0 +1,25 @@
+[package]
+name = "toam"
+version = "0.1.0"
+authors = ["Restioson <restiosondev@gmail.comn> gegy1000 <gegy1000@gmail.com>"]
+include = ["resources"]
+
+[dependencies]
+tiled = "0.7.2"
+specs = "0.10.0"
+cgmath = "0.16.1"
+rhusics-core = "0.3.0"
+rhusics-ecs = "0.3.0"
+shrev = "0.8.1"
+collision = "0.15"
+image = "0.18.0"
+itertools = "0.7.3"
+ord_subset = "3"
+rand = "0.4.2"
+
+[dependencies.ggez]
+version = "0.4"
+features = ["cargo-resource-root"]
+
+[features]
+cargo-resource-root = []
